@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font: normal 16px Arial, Helvetica, sans-serif;
+
+  line-height: 1.6em;
+  margin: 0px;
+}
+
+#banner-img {
+  background-image: url("../images/nysl_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 400px;
+  top: 30px;
+  height: auto;
+  width: auto;
+  position: relative;
+  z-index: -1;
+}
+
+#banner-logo {
+  background-image: url("../images/nysl_logo_rsz.png");
+  background-repeat: no-repeat;
+
+  padding-top: 100px;
+  height: 50px;
+  width: 100px;
+  float: left;
+  right: -20px;
+  top: 80px;
+  position: relative;
+}
+
+#banner-title {
+  background-color: #000;
+  height: 33px;
+  width: 100%;
+  top: 425px;
+  position: absolute;
+  z-index: -1;
+}
+
+#banner-title > h1 {
+  font: normal 16px Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#main-title {
+  font: Arial, Helvetica, sans-serif;
+  color: #000;
+  text-shadow: 0 0 5px #fff;
+  font-weight: bold;
+  font-size: 25px;
+
+  text-align: left;
+  position: absolute;
+  margin: -410px;
+  margin-left: 10px;
+  padding: 0px;
+  z-index: -1;
+}
+
+.btn-toolbar {
+  color: rgb(41, 64, 99);
+  margin: 13px 12px 12px 10px;
+  padding: 10px 24px;
+  text-align: right;
+  position: absolute;
+  cursor: pointer;
+  float: right;
+  z-index: 1;
+  margin: -428px;
+  margin-left: 1100px;
+}
+
+.btn-toolbar:not(:last-child) {
+  border-right: none;
+}
+
+.btn-toolbar:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+button:hover {
+  background-color: #7cfc00;
+}
+
+a.active button {
+  background-color: #7cfc00;
+  z-index: 1;
+}
+
+button {
+  background-color: rgb(41, 64, 99);
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.img {
+  position: absolute;
+  float: left;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+.section {
+  position: absolute;
+  float: center;
+  margin-top: 50px;
+  margin-left: 220px;
+  padding: 0px;
+  width: 1050px;
+
+  hyphens: auto;
+  text-align: justify;
+}
+
+p {
+  margin-left: 30px;
+}

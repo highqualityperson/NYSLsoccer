@@ -1,0 +1,680 @@
+/* General Settings */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu li a.active{
+  color: #7cfc00;
+}
+
+body {
+  font: normal 16px Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+  background-color: rgb(255, 254, 251);
+}
+
+
+/* Header Section */
+.headline {
+  /*  display: flex;*/
+  height: 200px;
+  width: auto;
+}
+/*  .headline div {
+  width: 50%;
+  padding: 30px;
+}*/
+
+a {
+  display: flex;
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover {
+  color: #7cfc00;
+}
+/*  
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+  opacity: 0.4;
+}*/
+
+.main-title {
+  margin-top: 40px;
+  margin-left: 15px;
+  width: auto;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 17px;
+  }
+
+  .main-title2 {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 16px;
+    letter-spacing: 4.2px;
+  }
+
+
+  .rules-content{
+    margin-left: 170px;
+    margin-right: 170px;
+    hyphens: auto;
+    text-align: justify;
+  }
+
+  .rules-header {
+    width: auto;
+    height: 100px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    text-align: right;
+  }
+
+  .rules{
+    hyphens: auto;
+    text-align: justify;
+  }
+
+ div.sportsmanship {
+   margin-left: 40px;
+ }
+
+ ol.rules_ol{
+   margin-left: 40px;
+ }
+
+ ol.rules_ol ol[type="a"]{
+   margin-left: 40px;
+ }
+
+ .rules-gif {
+   margin-top: 50px;
+   margin-left: 350px;
+ }
+  /*  .banner-img {
+  
+  background-image: url("../images/nsyl_header2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-width: 100%;
+
+
+}*/
+
+ .menu {
+  /* display: flex;
+  justify-content: flex-end; */
+  /* flex-direction: row; */
+  height: 15px;
+  width: auto;
+  margin-left: 400px;
+  margin-right: 120px;
+  margin-top: -165.5px;
+  float: right;
+  
+}
+ .menu a {
+  height: 10px;
+  width: 80px;
+  border: 1px  solid white;
+  text-align: center;
+  background-color: rgb(255, 254, 251);
+  color: #000;
+  text-decoration: none;
+}
+
+.menu li{
+  float: right;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  color: #7cfc00;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(255, 254, 251);
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+/* Main */
+main {
+  height:3000px;
+  max-width: 100%;
+ /*  display: flex; */
+}
+
+ .section {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+   
+ }
+.section1 {
+  width: 50%;
+  height: 50%;
+  
+}
+.section2 {
+  hyphens: auto;
+  text-align: justify;
+  margin-top: -33px;
+  margin-left: 80px;
+}
+div.index-header{
+    width: auto;
+    height: 100px;
+    margin-top: 200px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+div.index-section{
+    height: 100px;
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    hyphens: auto;
+    text-align: justify;
+}
+ .circular-landscape {
+  display: flex; 
+  position: relative;
+  width: 450px;
+  height: 450px;
+ 
+  border-radius: 0%;
+  float: left;
+  margin-left: 100px;
+}
+
+.circular-landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: 100px;
+}
+table {
+  max-width: 100%;
+
+  
+}
+table {
+  border: 1px solid black;
+ 
+}
+
+th, td {
+  padding: 0 15px 0 15px;
+}
+
+/* table > tr:hover {background-color: #f5f5f5;}
+} */
+/* table > td:nth-child(odd){
+  background-color: rgb(131, 131, 131);
+
+} */
+tr:hover {
+  background-color: #f5f5f5;
+}
+.schedule-info {
+  width: auto;
+  height: auto;
+  margin-left: 600px;
+}
+.schedule-fall {
+  margin-top: -525px;
+
+  margin-right: 200px;
+  
+}
+.maps-headline {
+  margin-left: 160px;
+  margin-top: 80px;
+}
+/* .result {
+  float: center;
+  margin-top: 100px;
+  margin-left: 600px;
+  font-size: 50px;
+} 
+.result img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: -30px;
+  margin-left: -60px;
+} */
+/*  .blackbar {
+  height: 10px;
+  background-color: black;
+  width: 80%;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  background: #000;
+
+}*/
+
+/* Sections */
+.section1 {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+ .section-about-1 {
+   height: 120px;
+   width: 400px;
+   margin-left: 800px; 
+   margin-top: 100px;
+  /*  display: grid;
+   grid-template-columns: 1fr .5fr; */
+    hyphens: auto;
+  text-align: justify;
+ }
+.section-about-2 {
+  height: 400px;
+  width: 50%;
+  margin-left: 380px;
+  margin-top: 330px;
+  hyphens: auto;
+  text-align: justify;
+}
+.section-about-3 {
+  height: 100px;
+  width: 20%;
+  margin-left: 200px;
+  margin-top: 0px;
+      hyphens: auto;
+  text-align: justify;
+}
+ .about-img {
+  display: flex; 
+  position: relative;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 0%;
+  float: left;
+  margin-left: 180px;
+  margin-top: -240px;
+}
+ .about-img img{
+    width: auto;
+  height: 100%;
+  margin-left: -50px;
+ }
+
+  .about-img-2 {
+  display: flex; 
+  position: relative;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 0%;
+  float: left;
+  margin-left: 770px;
+  margin-top: -240px;
+}
+ .about-img-2 img{
+    width: auto;
+  height: 100%;
+  margin-left: -50px;
+ }
+
+ .section-about-4 {
+   height: 100px;
+  width: 60%;
+  margin-left: 400px;
+  margin-top: 200px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6em;
+      hyphens: auto;
+  text-align: center;
+ }
+/*    margin-left: 600px;
+   margin-top: -200px; */
+   
+ 
+/*    flex-direction: row;
+ */   
+
+  /*  display: grid; 
+  grid-template-columns: 30% 30% 30%;
+   grid-row-gap: 10px; */
+  
+/*   display: flex;
+  flex-direction: row;
+  hyphens: auto;
+  text-align: justify; */
+
+
+
+
+
+ div#cta a {
+  display: block;
+  height: 30px;
+  width: 300px;
+  float: center;
+  margin-left: 520px;
+  margin-top: 130px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #000; 
+  text-shadow: 0 0 5px #fff;
+ /*  position: sticky;  */
+}
+
+div#cta a:hover {
+  color: #7cfc00;
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: 50% 50%;
+   grid-row-gap: 50px;
+   place-items: center;
+  /* display: flex;
+  justify-content: space-evenly;
+  width: 100%; */
+ 
+}
+
+form{
+  margin-left: 200px;
+}
+
+input[type="text"]{
+  width: 50%;
+}
+
+
+input[type="submit"]:hover{
+  color: #7cfc00
+  
+}
+
+div.row div.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+div.row div.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+table.solanges_table {
+  margin-top: 75px;
+}
+
+
+
+
+/* Customize the label (the container) 
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button 
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button 
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color 
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background 
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) 
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked 
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) 
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+} */
+ /* Footer Styling  */
+.footer {
+ display: flex; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(20, 20, 20);
+  color: rgb(216, 216, 216);
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.footer div {
+  width: 50%;
+  padding: 30px;
+}
+.footer .times,
+.coach {
+  line-height: 1.6em;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer a {
+  color: rgb(216, 216, 216);
+}
+
+.footer a:hover {
+  color: #7cfc00;
+}
+
+.footer-logo {
+
+  background-image: url("../images/nysl_logo_rsz100.png");
+  background-repeat: no-repeat;
+
+  padding-top: 0px;
+  height: 100px;
+  width: 100px;
+  float: right;
+  right: -80px;
+  top: 52px;
+  position: relative;
+  opacity: 1;
+  
+}
+}
+/* #banner-logo {
+  background-image: url("../images/nysl_logo_rsz120.png");
+  background-repeat: no-repeat;
+
+  padding-top: 0px;
+  height: 120px;
+  width: 120px;
+  float: left;
+  top: 20px;
+  left: 20px;
+  position: relative;
+}
+
+#banner-title {
+  background-color: #000;
+  height: 33px;
+  width: 100%;
+  top: 425px;
+  position: absolute;
+  z-index: 1;
+}
+
+.section {
+  position: absolute;
+  float: center;
+  margin-top: 150px;
+  margin-left: 220px;
+  padding: 0px;
+  width: 1050px;
+
+  hyphens: auto;
+  text-align: justify;
+}
+
+p {
+  margin-left: 30px;
+}
+
+menu {
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+#map {
+  width: 35%;
+  height: 5px;
+  background-color: #000;
+  margin: 6px 0;
+}
+
+
+.social-buttons,
+.social-buttons > li {
+  display: flex;
+  padding: 0px;
+  margin: 0;
+}
+
+.social-buttons {
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.social-buttons > li {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.social-buttons > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5em 1em;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-buttons > i {
+  margin-right: 0.5em;
+}
+
+.social-buttons [href*="twitter.com"] {
+  background: #1da1f2;
+}
+
+.social-buttons [href*="facebook.com"] {
+  background: #1da1f2;
+}
+
+.social-buttons [href*="instagram.com"] {
+  background: #1da1f2;
+}
+
+social-buttons > li {
+  margin: 2px;
+}*/
